@@ -12,6 +12,8 @@ header('Access-Control-Allow-Origin:*');
 
 所以将此文件放在一个固定位置，可做任意请求的中转站。
 
+// *ajax_old.php* 中使用了 *$_POST*，需设置 *php.ini*。
+
 #### 用法
 
 将 *ajax.php* 放到合适位置，通过 Get/Post 访问，附加 target_url 参数。
