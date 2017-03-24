@@ -14,6 +14,9 @@ header('Access-Control-Allow-Origin:*');
 
 // *ajax_old.php* 中使用了 *$_POST*，需设置 *php.ini*。
 
+// *ajax_debug.php* 将打印所有变量信息。
+
+
 #### 用法
 
 将 *ajax.php* 放到合适位置，通过 Get/Post 访问，附加 target_url 参数。
